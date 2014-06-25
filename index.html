@@ -4,11 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Your page title</title>
+    <title>Tough Guy Mountain</title>
 
     <link rel="stylesheet" href="css/pure-min.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    
+    var winsize = {
+      width: window.innerWidth || document.body.clientWidth,
+      height: window.innerHeight || document.body.clientHeight
+    }
+    
+    document.getElementById('block').setAttribute("style","size:winsize")
+
+  });
+</script>
 
  <body>
 
@@ -32,10 +46,7 @@
       <div class="title">
         <h1>Meet your Tough Guy Mountains</h1>
       </div>
-      <div id="banner">
-        
-      </div>
-      <div class="pure-g" style="position:fixed; top:600px;">
+      <div class="pure-g">
         <div class="pure-u-1-6"><img  src="assets/icons/menu1.gif"></div>
         <div class="pure-u-1-6"><img  src="assets/icons/menu1.gif"></div>
         <div class="pure-u-1-6"><img  src="assets/icons/menu1.gif"></div>
