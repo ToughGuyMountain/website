@@ -3,25 +3,56 @@ body {
 	height:100%;
 }
 
-.block{
+.blocks{
 	width: 100%;
+	position: relative;
 
 }
 
 .title {
 	background: url("assets/img/title_banner.jpg") no-repeat center;
 	text-align: center;
+	font-family: Bauhaus, Bauhaus93, Helvetica;
 
 }
 #banner {
 	width:100%;
-	height: 85%;
-	background: url("assets/img/banner.jpg") no-repeat center;
-	background-size: 100%
+	height: 80%;
+	background: #FFF;
+	text-align: center;
+
 }
 
 #title_menu {
 	vertical-align: baseline;
+	height: 20%;
+	width: 100%;
+	text-align: center;
+}
+
+#logo1, #logo3 {
+	height: 250px;
+	width: 250px;
+	margin-top: 30%;
+}
+#logo2 {
+	height: 300px;
+	width: 350px;
+	margin-top: 30%;
+}
+
+#people_title {
+	height: 10%;
+}
+
+#people_banner {
+	background: url("assets/img/people_banner.jpg");
+	height: 90%;
+}
+
+button {
+	background: url(assets/icons/button.png);
+	font-family: Bauhaus, Bauhaus93, Helvetica;
 }
 
 h1{
