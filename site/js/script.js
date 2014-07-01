@@ -1,19 +1,17 @@
 
 
 $(document).ready(function() {
+	
 	var height = $(window).height();
 	$(".blocks").height(height);
 
-	$("#slideshow > div:gt(0)").hide();
+	$("#people_banner").children("div").click(function(event){
 
-	setInterval(function() { 
-  	$('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-	},  3000);
+		$("#people_banner").children("div").hide(600,"swing");
+
+		$(".people").children("div").show(600,"swing");
+	});
+
 
 });
 
@@ -21,4 +19,3 @@ $(window).resize(function () {
 	var height = $(window).height();
 	$(".blocks").height(height);
 });
-
