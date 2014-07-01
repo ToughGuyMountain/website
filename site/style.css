@@ -23,8 +23,15 @@ body {
 }
 .title img{ margin-top: 10px;}
 
-.people div {
+.people_info {
 	display: none;
+	background-color: rgba(252,0,201,0.5);
+	position:absolute;
+	right: 0px;
+	padding: 25px;
+	border: 5px outset rgba(252,0,201,1);
+	font-family: Bauhaus, Bauhaus93, Helvetica;
+	font-size: 2em;
 }
 
 #banner {

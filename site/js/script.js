@@ -5,13 +5,33 @@ $(document).ready(function() {
 	var height = $(window).height();
 	$(".blocks").height(height);
 
-	$("#people_banner").children("div").click(function(event){
+		var toggleON = {
+			height: height-50,
+			position: "absolute",
+			top: "100px",
+			left: "0px",
+		};
 
-		$("#people_banner").children("div").hide(600,"swing");
+		var toggleOFF = {
+			height: "100%",
+			position: "relative",
+			top: "0px",
+			margin:"0px",
+		};
 
-		$(".people").children("div").show(600,"swing");
-	});
+	$(".people").toggle(function(){
 
+		$(".people").not(this).hide();
+		$(this).children("img").css(toggleON);
+		$(this).children(".people_info").css("display","block");
+		},
+		function() {
+			$(this).children("img").css(toggleOFF);
+			$(this).children(".people_info").css("display","none");
+			$(".people").not(this).show();
+			
+
+		});
 
 });
 
