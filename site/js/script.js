@@ -1,14 +1,14 @@
 
 
 $(document).ready(function() {
-	
+
 	var height = $(window).height();
 	$(".blocks").height(height);
 
 		var toggleON = {
 			height: height-50,
 			position: "absolute",
-			top: "100px",
+			top: "50px",
 			left: "0px",
 		};
 
@@ -32,10 +32,12 @@ $(document).ready(function() {
 			
 
 		});
-
+	
 });
 
 $(window).resize(function () {
 	var height = $(window).height();
 	$(".blocks").height(height);
 });
+
+
