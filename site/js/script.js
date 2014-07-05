@@ -10,10 +10,12 @@ $(document).ready(function() {
 			position: "absolute",
 			top: "50px",
 			left: "0px",
+			width: "50%",
 		};
 
 		var toggleOFF = {
-			height: "100%",
+			height: "80%",
+			width:"80%",
 			position: "relative",
 			top: "0px",
 			margin:"0px",

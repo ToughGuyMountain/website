@@ -30,7 +30,9 @@ body {
 	display: none;
 	background-color: rgba(252,0,201,0.5);
 	position:absolute;
+	top:0px;
 	right: 0px;
+	margin-top: 5%;
 	padding: 25px;
 	border: 5px outset rgba(252,0,201,1);
 	font-family: Bauhaus, Bauhaus93, Helvetica;
@@ -58,7 +60,8 @@ body {
 	cursor: pointer; 	
 }
 .people {
-	vertical-align: text-top;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .people img:hover{
@@ -164,8 +167,8 @@ body {
 
 #people_banner img {
 	margin: 0px;
-	height: 50%;
-	width: 50%;
+	height: 80%;
+	width: 80%;
 }
 
 #cv_title {
