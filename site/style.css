@@ -218,6 +218,12 @@ body {
 	box-shadow: 10px 2px 2px #000000;
 }
 
+#video_banner {
+	background: url("assets/img/video/videocubes.png") no-repeat center;
+	height: 100%;
+	text-align: center;
+}
+
 h1{
 	margin: 0px;
 }
