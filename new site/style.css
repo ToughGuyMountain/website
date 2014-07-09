@@ -38,6 +38,9 @@ body {
 	margin-left: 10px;
 	margin-right: 10px;
 }
+.button {
+	cursor:pointer;
+}
 
 
 #windowtitle {
@@ -108,10 +111,6 @@ body {
 
 #window:hover {
 	cursor: move;
-}
-
-#twitbut {
-	cursor:pointer;
 }
 
 h1{

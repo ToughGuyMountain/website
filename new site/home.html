@@ -25,8 +25,9 @@ $(init);
   function init() {
     $("#window").draggable(
     {
-      containment:"#cv_banner",
+      containment:".blocks",
       cursor:"move",
+      snap:".title",
     });
   }
 
@@ -38,7 +39,7 @@ $(init);
 <body>
   <div class="blocks" id="banner">
     <div class="title">
-      <img src="assets/img/blacklogo.png"/><img id="twitbut" src="assets/icons/twitter.png" /><img id="face" src="assets/icons/facebook.png"/>
+      <img class="button" src="assets/img/blacklogo.png"/><img class="button" id="twitbut" src="assets/icons/twitter.png" /><img class="button" id="face" src="assets/icons/facebook.png"/>
     </div>
           
     <div id="window" style="display:none;">

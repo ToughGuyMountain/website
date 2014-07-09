@@ -8,9 +8,8 @@ $(document).ready(function() {
 
 	$(".icon").on("click",function(){
 		var content = $(this).attr("id");
-		console.log(content);
 		$("#iframe").attr("src",content + ".html");
-		$(".windowtitle").html("<p>"+content+"</p>");
+		$("#windowtitle").html("<p>"+content+"</p>");
 	});
 	
 	var toggleON = {
@@ -42,23 +41,28 @@ $(document).ready(function() {
 			
 
 		});
-	$("#twitbut").toggle(function(){
-		$("#twitter").show("slow");
-		},
+	$("#twitbut").hover(function(){
+		$("#twitter").show()},
 		function(){
-		$("#twitter").hide("slow");
+		$("#twitter").hide();
 	});
 
 	$(".icon").on("click",function(){
 		$("#window").css("display","block");
 	});
 
-	$("#facebook").hover(function(){
+	$("#face").hover(function(){
 		$("#facebook").show()},
 		function(){
 		$("#facebook").hide();
 	});
-	$(".social").hover(function())
+
+	$(".social").hover(function(){
+		$(this).show()},
+		function(){
+		$(this).hide();
+	});
+
 	
 });
 
