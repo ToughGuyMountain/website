@@ -12,21 +12,22 @@ $(document).ready(function() {
 		$("#iframe").attr("src",content + ".html");
 		$(".windowtitle").html("<p>"+content+"</p>");
 	});
-			var toggleON = {
-			height: height-50,
-			position: "absolute",
-			top: "50px",
-			left: "0px",
-			width: "50%",
-		};
+	
+	var toggleON = {
+		height: height-50,
+	position: "absolute",
+	top: "50px",
+	left: "0px",
+	width: "50%",
+	};
 
-		var toggleOFF = {
-			height: "80%",
-			width:"80%",
-			position: "relative",
-			top: "0px",
-			margin:"0px",
-		};
+	var toggleOFF = {
+		height: "80%",
+		width:"80%",
+		position: "relative",
+		top: "0px",
+		margin:"0px",
+	};
 
 	$(".people").toggle(function(){
 
@@ -43,10 +44,21 @@ $(document).ready(function() {
 		});
 	$("#twitbut").toggle(function(){
 		$("#twitter").show("slow");
-	},
-	function(){
+		},
+		function(){
 		$("#twitter").hide("slow");
-	})
+	});
+
+	$(".icon").on("click",function(){
+		$("#window").css("display","block");
+	});
+
+	$("#facebook").hover(function(){
+		$("#facebook").show()},
+		function(){
+		$("#facebook").hide();
+	});
+	$(".social").hover(function())
 	
 });
 

@@ -14,6 +14,7 @@ body {
 
 }
 
+
 .title {
 	background: #939393;
 	background: -moz-linear-gradient(top,  #939393 0%, #ffffff 100%);
@@ -38,7 +39,8 @@ body {
 	margin-right: 10px;
 }
 
-.windowtitle {
+
+#windowtitle {
 	background: #939393;
 	background: -moz-linear-gradient(top,  #939393 0%, #ffffff 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#939393), color-stop(100%,#ffffff));
@@ -52,6 +54,15 @@ body {
 	font-family: Bauhaus, Bauhaus93, Helvetica;
 	position: relative;
 	box-shadow: 2px 2px 2px #000000;
+}
+.social {
+	display:none;
+	z-index:10;
+	position: fixed;
+	height: auto;
+	width:300px;
+	margin-left:10px 
+
 }
 
 .icon {
@@ -97,15 +108,6 @@ body {
 
 #window:hover {
 	cursor: move;
-}
-.social {
-	display:none;
-	z-index:10;
-	position: fixed;
-	height: 100px;
-	width:300px;
-	margin-left:10px 
-
 }
 
 #twitbut {

@@ -1,0 +1,40 @@
+.people_info {
+	width: 50%;
+	text-align:justify;
+	text-justify:inter-word;
+	display: none;
+	background-color: rgba(252,0,201,0.5);
+	position:absolute;
+	top:0px;
+	right: 0px;
+	margin-top: 5%;
+	padding: 25px;
+	border: 5px outset rgba(252,0,201,1);
+	font-family: Bauhaus, Bauhaus93, Helvetica;
+	font-size: 1.5em;
+	color:#FFFFFF;
+}
+.people {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.people img:hover{
+	cursor: pointer;
+}
+
+#people_title {
+	height: 10%;
+	box-shadow: none;
+}
+
+#people_banner {
+	background: url("assets/img/people_banner.jpg");
+	height: 100%;
+	text-align: center;
+}
+#people_banner img {
+	margin: 0px;
+	height: 80%;
+	width: 80%;
+}

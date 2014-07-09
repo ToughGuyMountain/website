@@ -59,14 +59,7 @@ body {
 	border: solid 5px #FFFFFF;
 	cursor: pointer; 	
 }
-.people {
-	display: inline-block;
-	vertical-align: middle;
-}
 
-.people img:hover{
-	cursor: pointer;
-}
 
 .icon {
 	text-align: right;
