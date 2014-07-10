@@ -28,8 +28,8 @@
 	box-shadow: none;
 }
 
-#people_banner {
-	background: url("assets/img/people_banner.jpg");
+body {
+	background-color: white;
 	height: 100%;
 	text-align: center;
 }
