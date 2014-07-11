@@ -11,6 +11,9 @@ $(document).ready(function() {
 		$("#iframe").attr("src",content + ".html");
 		$("#windowtitle").html("<p>"+content+"</p>");
 	});
+
+	var background = Math.floor((Math.random()*10) + 1)
+	$("#banner_main").css("background-image","url(assets/img/background/"+background+".jpg)");
 	
 	var toggleON = {
 		height: height-50,
@@ -38,8 +41,6 @@ $(document).ready(function() {
 			$(this).children("img").css(toggleOFF);
 			$(this).children(".people_info").css("display","none");
 			$(".people").not(this).show();
-			
-
 		});
 	$("#twitbut").hover(function(){
 		$("#twitter").show()},
@@ -61,6 +62,12 @@ $(document).ready(function() {
 		$(this).show()},
 		function(){
 		$(this).hide();
+	});
+
+	$(".people_info").children("h1").toggle(function(){
+		$(this).siblings("p").show()},
+		function () {
+			$(this).siblings("p").hide();
 	});
 
 	

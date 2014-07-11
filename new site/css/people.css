@@ -1,5 +1,14 @@
+@font-face {
+	font-family: Bauhaus;
+	src: url(Bauhaus.ttf);
+}
+@font-face {
+	font-family: Kremlin;
+	src: url(Kremlin.ttf);
+}
+
 .people_info {
-	width: 50%;
+	width: 40%;
 	text-align:justify;
 	text-justify:inter-word;
 	display: none;
@@ -10,9 +19,18 @@
 	margin-top: 5%;
 	padding: 25px;
 	border: 5px outset rgba(252,0,201,1);
-	font-family: Bauhaus, Bauhaus93, Helvetica;
+	font-family: Helvetica;
 	font-size: 1.5em;
 	color:#FFFFFF;
+}
+.people_info h1 {
+	font-family: Kremlin, Helvetica;
+	cursor: pointer;
+}
+.people_info a {
+	font-family: Bauhaus, Helvetica;
+	cursor: pointer;
+	color: #FFFFFF;
 }
 .people {
 	display: inline-block;
@@ -21,6 +39,9 @@
 
 .people img:hover{
 	cursor: pointer;
+}
+.people_text {
+	display:none;
 }
 
 #people_title {
