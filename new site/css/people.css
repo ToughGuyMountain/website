@@ -43,6 +43,9 @@
 .people_text {
 	display:none;
 }
+.people_info a{
+	z-index: 9999;
+}
 
 #people_title {
 	height: 10%;
@@ -50,7 +53,6 @@
 }
 
 body {
-	background-color: white;
 	height: 100%;
 	text-align: center;
 }

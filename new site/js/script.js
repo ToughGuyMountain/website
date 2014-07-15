@@ -69,6 +69,11 @@ $(document).ready(function() {
 		function () {
 			$(this).siblings("p").hide();
 	});
+		$(".people_info").children("h1").toggle(function(){
+		$(this).siblings("p").show()},
+		function () {
+			$(this).siblings("p").hide();
+	});
 
 	
 });

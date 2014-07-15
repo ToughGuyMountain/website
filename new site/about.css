@@ -16,16 +16,8 @@ body {
 #banner {
 	width:100%;
 	height: 100%;
-	background: #FFF;
 	text-align: center;
-	background: #ff32ff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ff32ff 0%, #c4fcff 100%, #7db9e8 100%, #28f7ff 101%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff32ff), color-stop(100%,#c4fcff), color-stop(100%,#7db9e8), color-stop(101%,#28f7ff)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ff32ff 0%,#c4fcff 100%,#7db9e8 100%,#28f7ff 101%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ff32ff 0%,#c4fcff 100%,#7db9e8 100%,#28f7ff 101%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #ff32ff 0%,#c4fcff 100%,#7db9e8 100%,#28f7ff 101%); /* IE10+ */
-	background: linear-gradient(to bottom, #ff32ff 0%,#c4fcff 100%,#7db9e8 100%,#28f7ff 101%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff32ff', endColorstr='#28f7ff',GradientType=0 ); /* IE6-9 */
+	
 
 }
 
